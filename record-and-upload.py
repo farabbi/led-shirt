@@ -11,8 +11,3 @@ while(1):
     sleep(60)
     camera.stop_recording()
     call(["bash","upload.sh"])
-    
-#timestr = strftime("%Y%m%d-%H%M%S")
-#camera.start_recording('/home/pi/Desktop/videos/%s.h264' % timestr)
-#sleep(30)
-#camera.stop_recording()
