@@ -1,3 +1,6 @@
+# bash
+# Decode and play videos
+
 while :
 do
     ./video-viewer --led-gpio-mapping=adafruit-hat --led-no-hardware-pulse "videos/A.h264" -OvA.stream
