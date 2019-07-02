@@ -11,7 +11,7 @@ camera.resolution = (128,64)
 
 while(1):
     #timestr = strftime("%Y%m%d-%H%M%S")
-    camera.start_recording('videos/A.h264')
+    camera.start_recording('led-shirt-videos/videos/A.h264')
     sleep(60)
     camera.stop_recording()
     call(["bash","upload.sh"])
