@@ -1,5 +1,6 @@
 # bash
 # Decode and play videos
+# Should we lower --led-pwm-bits ?
 
 while :
 do
